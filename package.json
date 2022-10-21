@@ -5,11 +5,13 @@
   "keywords": [
     "ember-addon"
   ],
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goods/ember-stripe.git"
+  },
   "license": "MIT",
-  "author": "",
+  "author": "Goods",
   "directories": {
-    "doc": "doc",
     "test": "tests"
   },
   "scripts": {
@@ -73,5 +75,9 @@
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/goods/ember-stripe/issues"
+  },
+  "homepage": "https://github.com/goods/ember-stripe#readme"
 }
