@@ -1,0 +1,20 @@
+{{yield (hash
+  card=(component "stripe/card"
+    _elements=this.elements
+  )
+  cardNumber=(component "stripe/card-number"
+    _elements=this.elements
+  )
+  cardExpiry=(component "stripe/card-expiry"
+    _elements=this.elements
+  )
+  cardCvc=(component "stripe/card-cvc"
+    _elements=this.elements
+  )
+  postalCode=(component "stripe/postal-code"
+    _elements=this.elements
+  )
+  Payment=(component "stripe/payments"
+    _elements=this.elements
+  )
+)}}
